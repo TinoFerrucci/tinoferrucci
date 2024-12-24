@@ -5,8 +5,9 @@
 ## Acerca de mí
 
 - 🌍 Soy de la ciudad de Rosario, Santa Fe, Argentina.
-- 💻 Actualmente me desempeño como Pasante TI en Wiener Lab.
-- 🎓 Soy un estudiante avanzado de la carrera de Inteligencia Artificial dictada por la UNR.
+- 💻 Actualmente me desempeño como AI Developer en Wiener Lab.
+- 🤖 Doy clases de NLP y CV en la carrera de Inteligencia Artificial en la UNR.
+- 🎓 Soy Técnico Universitario en Inteligencia Artificial (UNR).
 
 ## Tecnologías más utilizadas
 
@@ -23,6 +24,7 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Langchain](https://img.shields.io/static/v1?style=for-the-badge&message=LangChain&color=1C3C3C&logo=LangChain&logoColor=FFFFFF&label=)
 
 ### Bases de datos
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
