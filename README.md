@@ -47,7 +47,7 @@
 
 ## Mis Proyectos Destacados
 
-### ## [Datagentra — Analista de Datos Autónomo](https://github.com/TinoFerrucci/Datagentra)                                                                                                                                                            
+### [Datagentra — Analista de Datos Autónomo](https://github.com/TinoFerrucci/Datagentra)                                                                                                                                                            
 Este proyecto nació como una herramienta personal para consultar bases de datos sin escribir SQL, y durante su desarrollo se convirtió en una aplicación full-stack con agente autónomo, historial de conversaciones y soporte para múltiples fuentes
  de datos.                                                                                                                                                                                                                                           
                                                                                                                                                                                                                                                      
