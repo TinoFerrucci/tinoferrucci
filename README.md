@@ -47,6 +47,34 @@
 
 ## Mis Proyectos Destacados
 
+### ## [Datagentra — Analista de Datos Autónomo](https://github.com/TinoFerrucci/Datagentra)                                                                                                                                                            
+Este proyecto nació como una herramienta personal para consultar bases de datos sin escribir SQL, y durante su desarrollo se convirtió en una aplicación full-stack con agente autónomo, historial de conversaciones y soporte para múltiples fuentes
+ de datos.                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                     
+En este proyecto se aplican:                                                                                                                                                                                                                         
+                                                                
+* Pipeline de Text-to-SQL con agente autónomo:                                                                                                                                                                                                       
+  * Diseño e implementación de un pipeline de 5 pasos: generación de SQL, ejecución con reintentos automáticos, resumen de resultados, sugerencia de gráfico y serialización de respuesta.
+  * Integración con LangChain para abstraer el proveedor LLM: compatible con OpenAI (cloud) y Ollama (local, sin costo).                                                                                                                             
+  * Motor de solo lectura con bloqueo de operaciones peligrosas (`INSERT`, `UPDATE`, `DELETE`, `DROP`) a nivel de evento en SQLAlchemy.                                                                                                              
+* Desarrollo de API REST con FastAPI:                                                                                                                                                                                                                
+  * Arquitectura de endpoints para el pipeline de consulta, gestión de conversaciones, carga de archivos y configuración dinámica del proveedor LLM.                                                                                                 
+  * Validación de modelos con Pydantic y manejo de errores con reintentos inteligentes.                                                                                                                                                              
+* Frontend React + TypeScript:                                                                                                                                                                                                                       
+  * Interfaz de chat completa con visualización de SQL, gráficos automáticos y resúmenes generados por el LLM.                                                                                                                                       
+  * Componentes de gráficos dinámicos (bar, line, area, pie, KPI) con Recharts adaptados al tipo de datos retornado.                                                                                                                                 
+  * Tema claro/oscuro persistido en `localStorage` y diseño responsive con Tailwind CSS.                                                                                                                                                             
+* Memoria contextual por conversación:                                                                                                                                                                                                               
+  * Persistencia de historial en SQLite con inyección de las últimas N preguntas y respuestas en el prompt del agente, habilitando preguntas de seguimiento naturales.                                                                               
+* Carga y corrección de archivos:                                                                                                                                                                                                                    
+  * Soporte para subir CSV y SQLite como fuentes de datos activas.                                                                                                                                                                                   
+  * Motor de correcciones en lenguaje natural (renombrar columnas, eliminar campos, convertir tipos) antes de confirmar el source.                                                                                                                   
+* Despliegue con Docker Compose:                                                                                                                                                                                                                     
+  * Orquestación de tres servicios con dependencias y health checks: `db-init` (semillado de base de datos), `backend` y `frontend`.                                                                                                                 
+  * Configuración automática de paths de base de datos según el entorno (local vs. Docker).
+
+Este proyecto representa la integración de múltiples disciplinas en una sola aplicación cohesiva: desde el diseño de pipelines de IA y la comunicación con modelos de lenguaje, hasta el desarrollo de una API REST robusta y una interfaz de usuario moderna. La combinación de un agente autónomo con memoria contextual, ejecución segura de SQL y visualización dinámica de datos demuestra una visión end-to-end del desarrollo de software orientado a inteligencia artificial. Sentite libre de     explorar el código, levantar el proyecto con un solo comando y consultar cualquier base de datos en lenguaje natural.
+  
 ### [Asistente inteligente basado en videojuegos](https://github.com/TinoFerrucci/NLP_Final_Project)
 Este proyecto nació como un trabajo final para la asignatura Procesamiento de Lenguaje Natural, pero durante su desarrollo, se reveló como un proyecto excepcionalmente versátil y prometedor.
 
