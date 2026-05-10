@@ -5,7 +5,7 @@
 ## Acerca de mí
 
 - 🌍 Soy de la ciudad de Rosario, Santa Fe, Argentina.
-- 💻 Actualmente me desempeño como AI Developer en Wiener Lab.
+- 💻 Actualmente me desempeño como Senior AI Developer en Tata Consultancy Services. Previamente AI Developer Wiener Lab.
 - 🤖 Doy clases de NLP y CV en la carrera de Inteligencia Artificial en la UNR.
 - 🎓 Soy Técnico Universitario en Inteligencia Artificial (UNR).
 
